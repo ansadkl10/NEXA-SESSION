@@ -1,0 +1,28 @@
+{
+  "name": "nexa-md-pair",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "next": "14.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5",
+    "@whiskeysockets/baileys": "latest",
+    "pino": "^9.0.0",
+    "qrcode": "^1.5.3",
+    "lucide-react": "latest",
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8.4.31",
+    "autoprefixer": "^10.4.16",
+    "fs-extra": "^11.2.0",
+    "axios": "^1.6.0",
+    "form-data": "^4.0.0"
+  }
+}
